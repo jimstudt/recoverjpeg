@@ -3,7 +3,7 @@ Installation
 To install recoverjpeg, run
 
     aclocal
-    autoheaders
+    autoheader
     automake --force-missing --add-missing
     autoconf
     ./configure
