@@ -2,6 +2,10 @@ Installation
 ------------
 To install recoverjpeg, run
 
+   aclocal
+   autoheaders
+   automake --force-missing --add-missing
+   autoconf
     ./configure
     make
     sudo make install
@@ -10,6 +14,10 @@ To use sort-pictures, you need to install:
 
   - exif: http://sourceforge.net/projects/libexif
   - ImageMagick: http://www.imagemagick.org/
+
+To build the manpages, you need to install:
+
+  - pandoc: http://johnmacfarlane.net/pandoc/
 
 Usage
 -----
