@@ -2,6 +2,9 @@ aclocal.m4
 autom4te.cache
 config.log
 config.status
+config.h
+config.h.in
+stamp-h1
 configure
 depcomp
 .deps
